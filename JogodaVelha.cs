@@ -139,7 +139,7 @@ namespace JogoDaVelha{
                     if ((tabuleiro[0, 0] == "X") && (tabuleiro[0, 1] == "X") && (tabuleiro[0, 2] == "X"))
                     {
                         ganhou = false;
-                        Console.WriteLine("Jogador 1 Ganhou!");
+                        Console.WriteLine("Jogador 1 Venceu!!!!");
                         break;
                     }
                     else if ((tabuleiro[1, 0] == "X") && (tabuleiro[1, 1] == "X") && (tabuleiro[1, 2] == "X"))
